@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Quiz</title>
+    <link rel="stylesheet" href="teste.css">
+</head>
+<body>
+    <div id="quiz-container">
+        <div id="mascot">
+            <img src="/img/photo-output 2.PNG" alt="Mascot">
+        </div>
+        <div id="story-box">
+            <p id="story-text">Meu nome é Ayla. Você pode me ajudar a fazer os cookies?</p>
+        </div>
+        <div id="question-box" style="display:none;">
+            <p id="question-text"></p>
+            <input type="number" id="number-input" style="display:none;">
+        </div>
+        <div id="buttons">
+            <button id="start-yes-button" class="answer-button" onclick="startStory(true)">Sim</button>
+            <button id="start-no-button" class="answer-button" onclick="startStory(false)">Não</button>
+            <button id="continue-button" class="answer-button" style="display:none;" onclick="continueStory()">Continuar</button>
+            <button id="yes-button" class="answer-button" style="display:none;" onclick="answerQuestion(true)">Sim</button>
+            <button id="no-button" class="answer-button" style="display:none;" onclick="answerQuestion(false)">Não</button>
+            <button id="contavel-button" class="answer-button" style="display:none;" onclick="answerQuestion('contável')">Contável</button>
+            <button id="incontavel-button" class="answer-button" style="display:none;" onclick="answerQuestion('incontável')">Incontável</button>
+            <button id="submit-button" class="answer-button" style="display:none;" onclick="checkNumberAnswer()">Enviar</button>
+        </div>
+    </div>
+    <script src="teste.js"></script>
+</body>
+</html>
