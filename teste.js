@@ -29,7 +29,7 @@ const story = [
 
 const questions = [
 
-    { text: "Quantos dólares ainda sobrarão no meu cofrinho?", answer: 245, type: "number" },
+    { text: "Quantos dólares tinha sobrado no meu cofrinho?", answer: 245, type: "number" },
     { text: "25 g de manteiga é contável ou incontável?", answer: "incontável" },
     { text: "1/2 xícara de açúcar mascavo é contável ou incontável?", answer: "incontável" },
     { text: "1 e 3/4 de xícara de farinha de trigo é contável ou incontável?", answer: "incontável" },
